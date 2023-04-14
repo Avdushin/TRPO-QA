@@ -22,7 +22,13 @@
 │   ├── qe
 │   ├── qe.exe
 │   └── qe_linux
-└── main.go # точка входа
+├── docs # материалы для документации
+│   ├── example.png
+│   ├── test-table.png
+│   └── tests.png
+├── go.mod # файл с зависимостями
+├── main.go # точка входа
+└── main_test.go # тесты
 ```
 
 ## Как использовать?
