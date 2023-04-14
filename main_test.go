@@ -21,7 +21,8 @@ func TestSolveQE(t *testing.T) {
 		{3, -12, 0, 4, 0, 144, true},
 		{0, 0, 10, NaN, NaN, 0, false},
 		{9, 0, 0, 0, 0, 0, true},
-
+	
+			// Эти не арбайтен (X_X)
 		// {3, 2, 5, NaN, NaN, -56, false},
 		// {0, 0, 0, 0, 0, 0, true},
 		// {0, 5, 17, -math.Inf(0), -math.Inf(0), 25, false},
