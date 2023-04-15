@@ -16,7 +16,7 @@ func TestSolveQE(t *testing.T) {
 		expectedD                    float64
 		expectedHasRoot              bool
 	}{
-
+		// a, b, c, x1, x2, D, наличие корней
 		{2, -5, 2, 2, 0.5, 9, true},
 		{3, -12, 0, 4, 0, 144, true},
 		{0, 0, 10, NaN, NaN, 0, false},
