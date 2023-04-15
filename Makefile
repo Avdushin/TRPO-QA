@@ -14,7 +14,7 @@ Default:
 start:
 	./bin/$(appname)
 test:
-	go test
+	go test -v
 win:
 	./bin/$(appname)
 build:
